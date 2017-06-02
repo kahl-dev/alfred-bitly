@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>bitly.kahl.alfred</string>
+	<key>category</key>
+	<string>My Workflows</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Patrick Kahl</string>
+	<key>description</key>
+	<string>Short clipboard url with bitly</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Bitly</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>7D75A2F3-91AE-40D8-973F-4A9999734764</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>7D75A2F3-91AE-40D8-973F-4A9999734764</key>
+		<dict>
+			<key>xpos</key>
+			<integer>130</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
