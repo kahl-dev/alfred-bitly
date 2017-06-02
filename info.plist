@@ -2,19 +2,28 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>bitly</string>
 	<key>bundleid</key>
 	<string>com.patrickkahl.bitly</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>B7816827-A27C-42EC-B2C3-0E3046E91203</key>
+		<key>0CD51B51-AB30-4507-A3C6-91A39723BBC7</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>59E68F6F-7FCF-4F40-9161-8376B648E214</string>
+				<string>529206D8-E428-48DD-AFD0-BA7BC31D1E12</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C55FEEEE-9576-4D97-BCF8-53D10AC920A4</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0CD51B51-AB30-4507-A3C6-91A39723BBC7</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -24,85 +33,101 @@
 			</dict>
 		</array>
 	</dict>
+	<key>createdby</key>
+	<string></string>
+	<key>description</key>
+	<string></string>
 	<key>disabled</key>
 	<false/>
+	<key>name</key>
+	<string>bitly</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>browser</key>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
 				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{query}</string>
-				<key>utf8</key>
-				<true/>
+				<key>type</key>
+				<integer>0</integer>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
+			<string>alfred.workflow.action.script</string>
 			<key>uid</key>
-			<string>59E68F6F-7FCF-4F40-9161-8376B648E214</string>
+			<string>0CD51B51-AB30-4507-A3C6-91A39723BBC7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Alfred</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>529206D8-E428-48DD-AFD0-BA7BC31D1E12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
 				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>keyword</key>
-				<string>bitly</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
 				<integer>2</integer>
-				<key>runningsubtext</key>
-				<string>Searching...</string>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node index.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>index.js</string>
+				<key>keyword</key>
+				<string>bit.ly</string>
 				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>My mind-blowing module</string>
-				<key>type</key>
-				<integer>0</integer>
+				<string>Searching...</string>
+				<key>text</key>
+				<string>Shorten URL with bit.ly</string>
 				<key>withspace</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
+			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
-			<string>B7816827-A27C-42EC-B2C3-0E3046E91203</string>
+			<string>C55FEEEE-9576-4D97-BCF8-53D10AC920A4</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>59E68F6F-7FCF-4F40-9161-8376B648E214</key>
+		<key>0CD51B51-AB30-4507-A3C6-91A39723BBC7</key>
 		<dict>
 			<key>xpos</key>
 			<integer>150</integer>
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
-		<key>B7816827-A27C-42EC-B2C3-0E3046E91203</key>
+		<key>529206D8-E428-48DD-AFD0-BA7BC31D1E12</key>
+		<dict>
+			<key>xpos</key>
+			<integer>290</integer>
+			<key>ypos</key>
+			<integer>10</integer>
+		</dict>
+		<key>C55FEEEE-9576-4D97-BCF8-53D10AC920A4</key>
 		<dict>
 			<key>xpos</key>
 			<integer>10</integer>
@@ -110,5 +135,9 @@
 			<integer>10</integer>
 		</dict>
 	</dict>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string></string>
 </dict>
 </plist>
