@@ -2,42 +2,91 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>name</key>
+	<string>bitly</string>
 	<key>bundleid</key>
-	<string>bitly.kahl.alfred</string>
+	<string>com.patrickkahl.bitly</string>
 	<key>category</key>
-	<string>My Workflows</string>
+	<string>Productivity</string>
 	<key>connections</key>
-	<dict/>
-	<key>createdby</key>
-	<string>Patrick Kahl</string>
-	<key>description</key>
-	<string>Short clipboard url with bitly</string>
+	<dict>
+		<key>B7816827-A27C-42EC-B2C3-0E3046E91203</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>59E68F6F-7FCF-4F40-9161-8376B648E214</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>disabled</key>
 	<false/>
-	<key>name</key>
-	<string>Bitly</string>
 	<key>objects</key>
 	<array>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>127</integer>
-				<key>script</key>
+				<key>browser</key>
 				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>59E68F6F-7FCF-4F40-9161-8376B648E214</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>bitly</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching...</string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
+				<string>index.js</string>
+				<key>subtext</key>
 				<string></string>
+				<key>title</key>
+				<string>My mind-blowing module</string>
 				<key>type</key>
 				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.action.script</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>7D75A2F3-91AE-40D8-973F-4A9999734764</string>
+			<string>B7816827-A27C-42EC-B2C3-0E3046E91203</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -46,15 +95,20 @@
 	<string></string>
 	<key>uidata</key>
 	<dict>
-		<key>7D75A2F3-91AE-40D8-973F-4A9999734764</key>
+		<key>59E68F6F-7FCF-4F40-9161-8376B648E214</key>
 		<dict>
 			<key>xpos</key>
-			<integer>130</integer>
+			<integer>150</integer>
 			<key>ypos</key>
-			<integer>80</integer>
+			<integer>10</integer>
+		</dict>
+		<key>B7816827-A27C-42EC-B2C3-0E3046E91203</key>
+		<dict>
+			<key>xpos</key>
+			<integer>10</integer>
+			<key>ypos</key>
+			<integer>10</integer>
 		</dict>
 	</dict>
-	<key>webaddress</key>
-	<string></string>
 </dict>
 </plist>
