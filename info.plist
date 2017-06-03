@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.patrickkahl.bitly</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>0CD51B51-AB30-4507-A3C6-91A39723BBC7</key>
@@ -134,6 +136,11 @@
 			<key>ypos</key>
 			<integer>10</integer>
 		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>BITLY_ACCESS_TOKEN</key>
+		<string></string>
 	</dict>
 	<key>version</key>
 	<string></string>
