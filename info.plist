@@ -36,9 +36,9 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Patrick Kahl</string>
 	<key>description</key>
-	<string></string>
+	<string>Shorten URL with bit.ly</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -74,7 +74,7 @@
 				<key>lastpathcomponent</key>
 				<false/>
 				<key>onlyshowifquerypopulated</key>
-				<false/>
+				<true/>
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>

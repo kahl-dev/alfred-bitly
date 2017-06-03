@@ -1,7 +1,7 @@
 {
   "name": "alfred-bitly",
-  "version": "0.0.0",
-  "description": "My mind-blowing module",
+  "version": "0.1.0",
+  "description": "Shorten URL with bit.ly",
   "license": "MIT",
   "repository": "patrickkahl/alfred-bitly",
   "author": {
@@ -28,8 +28,7 @@
   ],
   "dependencies": {
     "bitly": "^4.1.1",
-    "clipboardy": "^1.1.2",
-    "simple-plist": "^0.2.1"
+    "clipboardy": "^1.1.2"
   },
   "devDependencies": {
     "alfy-test": "^0.3.0"

@@ -1,6 +1,6 @@
 # alfred-bitly [![Build Status](https://travis-ci.org/patrickkahl/alfred-bitly.svg?branch=master)](https://travis-ci.org/patrickkahl/alfred-bitly)
 
-> My mind-blowing module
+> Shorten URL with bit.ly
 
 
 ## Install
@@ -14,7 +14,7 @@ $ npm install --global alfred-bitly
 
 ## Usage
 
-In Alfred, type `bitly`, <kbd>Enter</kbd>, and your query.
+Copy URL to clipboard. Type `bitly` in Alfred and <kbd>Enter</kbd>. Now the shorten URL should be in your clipboard.
 
 
 ## License
