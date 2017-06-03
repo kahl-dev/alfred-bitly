@@ -1,4 +1,4 @@
-# alfred-bitly [![Build Status](https://travis-ci.org/patrickkahl/alfred-bitly.svg?branch=master)](https://travis-ci.org/patrickkahl/alfred-bitly)
+# alfred-bitly
 
 > Shorten URL with bit.ly
 
