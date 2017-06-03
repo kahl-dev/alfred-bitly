@@ -1,6 +1,6 @@
 {
   "name": "alfred-bitly",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Shorten URL with bit.ly",
   "license": "MIT",
   "repository": "patrickkahl/alfred-bitly",
@@ -23,6 +23,8 @@
   ],
   "keywords": [
     "alfred",
+    "bit.ly",
+    "bitly",
     "workflow",
     "alfy"
   ],
