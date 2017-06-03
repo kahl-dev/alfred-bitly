@@ -2,7 +2,7 @@
 
 > Shorten URL with bit.ly
 
-<img src="media/usage.gif" width="600">
+<img src="https://raw.githubusercontent.com/patrickkahl/alfred-bitly/master/media/usage.gif" width="600">
 
 ## Install
 
@@ -28,7 +28,7 @@ Before running the workflow you need to set your Bit.ly **ACCESS TOKEN**:
 
 To enter it open Alfred Preferences > Workflows then select Bit.ly, finally click in Configure Workflow and Variables (as seen below):
 
-<img src="media/alfred_preferences.jpg" width="600">
+<img src="https://raw.githubusercontent.com/patrickkahl/alfred-bitly/master/media/alfred_preferences.jpg" width="600">
 
 ## Usage
 
