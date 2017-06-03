@@ -13,6 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
+    "test": "xo && ava",
     "postinstall": "alfy-init",
     "preuninstall": "alfy-cleanup"
   },
@@ -34,6 +35,8 @@
     "clipboardy": "^1.1.2"
   },
   "devDependencies": {
-    "alfy-test": "^0.3.0"
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
   }
 }

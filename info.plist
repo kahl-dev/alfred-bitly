@@ -71,27 +71,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<true/>
-				<key>removeextension</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Alfred</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>529206D8-E428-48DD-AFD0-BA7BC31D1E12</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
 				<key>keyword</key>
@@ -107,6 +86,27 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>C55FEEEE-9576-4D97-BCF8-53D10AC920A4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Alfred</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>529206D8-E428-48DD-AFD0-BA7BC31D1E12</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -142,6 +142,10 @@
 		<key>BITLY_ACCESS_TOKEN</key>
 		<string></string>
 	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>BITLY_ACCESS_TOKEN</string>
+	</array>
 	<key>version</key>
 	<string></string>
 	<key>webaddress</key>
