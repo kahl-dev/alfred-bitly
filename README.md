@@ -7,18 +7,12 @@
 ## Install
 
 ```
-yarn add global alfred-bitly
-```
-
-*I defaulting to `yarn` but you can use `npm` if you like:*
-
-```
 $ npm install --global alfred-bitly
 ```
 
 *Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
 
-*Or download the `bitly.alfredworkflow` and double-click the file.*
+*I defaulting to `npm` but you can also download the `bitly.alfredworkflow` and double-click the file.*
 
 ## First Run
 
