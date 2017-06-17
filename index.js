@@ -1,5 +1,6 @@
 'use strict';
 
+require('dotenv').config({path: __dirname + '/variables.env'});
 const Bitly = require('bitly');
 const Clipboardy = require('clipboardy');
 
