@@ -31,7 +31,7 @@
   "dependencies": {
     "alfy": "^0.6.0",
     "bitly": "^4.1.1",
-    "clipboardy": "^1.1.2",
+    "clipboardy": "^1.2.1",
     "dotenv": "^4.0.0"
   }
 }
