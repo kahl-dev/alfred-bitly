@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "alfy": "^0.6.0",
-    "bitly": "^4.1.1",
+    "bitly": "^6.0.8",
     "clipboardy": "^1.2.1",
     "dotenv": "^4.0.0",
     "valid-url": "^1.0.9"
