@@ -112,7 +112,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Find out more and how to use at https://github.com/patrickkahl/alfred-bitly</string>
 	<key>uidata</key>
 	<dict>
 		<key>0CD51B51-AB30-4507-A3C6-91A39723BBC7</key>
@@ -147,7 +147,7 @@
 		<string>BITLY_ACCESS_TOKEN</string>
 	</array>
 	<key>version</key>
-	<string></string>
+	<string>1.0.5</string>
 	<key>webaddress</key>
 	<string></string>
 </dict>
